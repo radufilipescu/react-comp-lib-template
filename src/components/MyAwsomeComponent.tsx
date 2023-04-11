@@ -1,3 +1,13 @@
+import { useState } from "react"
+
 export function MyAwsomeComponent() {
-  return <button className="my-awsome-comp">Useless Clicker</button>
+  const [count, setCount] = useState<number>(0);
+  return (
+    <button 
+      className="my-awsome-comp" 
+      onClick={() => setCount((countVal) => countVal + 1)}
+    >
+      Useless Clicker {count}
+    </button>
+  );
 }
