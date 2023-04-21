@@ -1,1 +1,1 @@
-react-extendable-contextmenu
+react-comp-lib-template
