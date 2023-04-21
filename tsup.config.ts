@@ -2,7 +2,7 @@ import type { Options } from "tsup";
 
 const config: Options = {
   entry: [
-    "src/components/index.tsx",
+    "src/index.tsx",
     "MyAwsomeComponent.css",
   ],
   outDir: "dist",
