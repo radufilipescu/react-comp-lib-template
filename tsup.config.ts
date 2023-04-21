@@ -8,7 +8,7 @@ const config: Options = {
   outDir: "dist",
   dts: true,
   sourcemap: true,
-  format: ["iife", "cjs", "esm"],
+  format: [/* "iife", */ "cjs", "esm"],
 };
 
 export default config;
